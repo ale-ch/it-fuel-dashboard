@@ -1,6 +1,6 @@
 library(tidyverse)
 
-dataset <- readRDS("dataset_sardinia.RDA")
+dataset <- read_csv("https://raw.githubusercontent.com/ale-ch/it-fuel-dashboard/main/dataset.csv") 
 
 dataset <- dataset %>% 
   rename(
