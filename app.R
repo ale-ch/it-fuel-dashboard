@@ -1,21 +1,20 @@
 library(shiny)
 library(shinyWidgets)
 library(shinyBS)
-library(readr)
-library(dplyr)
+library(tidyverse)
 library(mapview)
+library(leaflet)
 library(sf)
 library(giscoR)
-library(leaflet)
 library(plotly)
 library(heatmaply)
 library(DT)
 
 theme_set(theme_minimal())
 
-dataset_description <- read_csv("dataset_description.csv")
+dataset_description <- read_csv("https://raw.githubusercontent.com/ale-ch/it-fuel-dashboard/main/dataset_description.csv")
 
-source("transform_dataset.R")
+source("https://raw.githubusercontent.com/ale-ch/it-fuel-dashboard/main/transform_dataset.R")
 
 min_date <- min(dataset_long$date)
 max_date <- max(dataset_long$date)
