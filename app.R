@@ -291,9 +291,9 @@ server <- function(input, output, session) {
       filter(date == input$date2) %>% 
       select(name1 = all_of(name1), 
              name2 = all_of(name2), 
-             nuts_level_2 
+             nuts_level_1
       ) %>% 
-      plot_ly(x = ~name1, y = ~name2, color = ~nuts_level_2) %>% 
+      plot_ly(x = ~name1, y = ~name2, color = ~nuts_level_1) %>% 
       layout(
         xaxis = list(title = name1), 
         yaxis = list(title = name2)
