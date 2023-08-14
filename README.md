@@ -3,7 +3,7 @@
 [Paolo Maranzano, Phd](https://www.paolomaranzano.net/home)
 
 ## Motivation
-The motivation behind this shiny app is to display monthly fuel usage trends in Italy at the provincial level, along with a set of socioeconomic variables that may help explain fuel usage. 
+The motivation behind this shiny app is to display monthly fuel usage trends in Italy at the provincial level, along with a set of socioeconomic variables that may help explain fuel usage. The goal of such tool is to help researchers and policy makers gain insight on local transport and mobility, as well as suggest solutions to sustainability issues. 
 
 ## Data
 Data for the fuel usage application is sourced from 
@@ -23,3 +23,6 @@ A 2017 [regional reform in Sardinia](https://web.archive.org/web/20160509123345/
 
 ## Updates
 Fuel consumption data will be updated periodically, whereas the other variables will be discontinued.
+
+## Contacts
+[alessiochiodin@hotmail.com](mailto:alessiochiodin@hotmail.com)
