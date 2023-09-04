@@ -35,14 +35,14 @@ industry_manufacturing_evaluation_of_finished_product_inventories,Judgment on fi
 industry_manufacturing_expectations_on_production,Expectations about production (manufacturing industry),INDEX,MONTHLY,01/2015-05/2023,2020/04,NUTS_1,ISOLE (Aggregated in SUD),http://dati.istat.it/Download.ashx?type=csv&Delimiter=%2c&IncludeTimeSeriesIdentifiers=False&LabelType=CodeAndLabel&LanguageCode=it
 industry_manufacturing_level_of_liquidity_relative_to_operational_needs,Expectations about liquidity level for business needs (manufacturing industry),INDEX,MONTHLY,01/2015-05/2023,2020/04,NUTS_1,ISOLE (Aggregated in SUD),http://dati.istat.it/Download.ashx?type=csv&Delimiter=%2c&IncludeTimeSeriesIdentifiers=False&LabelType=CodeAndLabel&LanguageCode=it
 consumers_confidence,Consumer confidence level,INDEX,MONTHLY,01/2015-05/2023,2020/04,NUTS_1,ISOLE (Aggregated in SUD),http://dati.istat.it/Download.ashx?type=csv&Delimiter=%2c&IncludeTimeSeriesIdentifiers=False&LabelType=CodeAndLabel&LanguageCode=it
-arrivals_hotellike_italy,Arrivals of Italian travelers at hotel facilities,NUMERO,MONTHLY,01/2015-01/2021,NO,NUTS_3,NO,http://dati.istat.it/Download.ashx?type=csv&Delimiter=%2c&IncludeTimeSeriesIdentifiers=False&LabelType=CodeAndLabel&LanguageCode=it
-arrivals_other_italy,Arrivals of Italian travelers at non-hotel facilities,NUMERO,MONTHLY,01/2015-01/2021,NO,NUTS_3,NO,http://dati.istat.it/Download.ashx?type=csv&Delimiter=%2c&IncludeTimeSeriesIdentifiers=False&LabelType=CodeAndLabel&LanguageCode=it
-stays_other_italy,Stays of Italian travelers at non-hotel facilities,NUMERO,MONTHLY,01/2015-01/2021,NO,NUTS_3,NO,http://dati.istat.it/Download.ashx?type=csv&Delimiter=%2c&IncludeTimeSeriesIdentifiers=False&LabelType=CodeAndLabel&LanguageCode=it
-stays_hotellike_italy,Stays at hotel facilities,NUMERO,MONTHLY,01/2015-01/2021,NO,NUTS_3,NO,http://dati.istat.it/Download.ashx?type=csv&Delimiter=%2c&IncludeTimeSeriesIdentifiers=False&LabelType=CodeAndLabel&LanguageCode=it
-arrivals_hotellike_foreign,Arrivals of foreign travelers at hotel facilities,NUMERO,MONTHLY,01/2015-01/2021,NO,NUTS_3,NO,http://dati.istat.it/Download.ashx?type=csv&Delimiter=%2c&IncludeTimeSeriesIdentifiers=False&LabelType=CodeAndLabel&LanguageCode=it
-arrivals_other_foreign,Arrivals of foreign travelers at non-hotel facilities,NUMERO,MONTHLY,01/2015-01/2021,NO,NUTS_3,NO,http://dati.istat.it/Download.ashx?type=csv&Delimiter=%2c&IncludeTimeSeriesIdentifiers=False&LabelType=CodeAndLabel&LanguageCode=it
-stays_other_foreign,Stays of foreign travelers at non-hotel facilities,NUMERO,MONTHLY,01/2015-01/2021,NO,NUTS_3,NO,http://dati.istat.it/Download.ashx?type=csv&Delimiter=%2c&IncludeTimeSeriesIdentifiers=False&LabelType=CodeAndLabel&LanguageCode=it
-stays_hotellike_foreign,Stays of foreign travelers at hotel facilities,NUMERO,MONTHLY,01/2015-01/2021,NO,NUTS_3,NO,http://dati.istat.it/Download.ashx?type=csv&Delimiter=%2c&IncludeTimeSeriesIdentifiers=False&LabelType=CodeAndLabel&LanguageCode=it
+arrivals_hotellike_italy,Arrivals of Italian travelers at hotel facilities,NUMBER,MONTHLY,01/2015-01/2021,NO,NUTS_3,NO,http://dati.istat.it/Download.ashx?type=csv&Delimiter=%2c&IncludeTimeSeriesIdentifiers=False&LabelType=CodeAndLabel&LanguageCode=it
+arrivals_other_italy,Arrivals of Italian travelers at non-hotel facilities,NUMBER,MONTHLY,01/2015-01/2021,NO,NUTS_3,NO,http://dati.istat.it/Download.ashx?type=csv&Delimiter=%2c&IncludeTimeSeriesIdentifiers=False&LabelType=CodeAndLabel&LanguageCode=it
+stays_other_italy,Stays of Italian travelers at non-hotel facilities,NUMBER,MONTHLY,01/2015-01/2021,NO,NUTS_3,NO,http://dati.istat.it/Download.ashx?type=csv&Delimiter=%2c&IncludeTimeSeriesIdentifiers=False&LabelType=CodeAndLabel&LanguageCode=it
+stays_hotellike_italy,Stays at hotel facilities,NUMBER,MONTHLY,01/2015-01/2021,NO,NUTS_3,NO,http://dati.istat.it/Download.ashx?type=csv&Delimiter=%2c&IncludeTimeSeriesIdentifiers=False&LabelType=CodeAndLabel&LanguageCode=it
+arrivals_hotellike_foreign,Arrivals of foreign travelers at hotel facilities,NUMBER,MONTHLY,01/2015-01/2021,NO,NUTS_3,NO,http://dati.istat.it/Download.ashx?type=csv&Delimiter=%2c&IncludeTimeSeriesIdentifiers=False&LabelType=CodeAndLabel&LanguageCode=it
+arrivals_other_foreign,Arrivals of foreign travelers at non-hotel facilities,NUMBER,MONTHLY,01/2015-01/2021,NO,NUTS_3,NO,http://dati.istat.it/Download.ashx?type=csv&Delimiter=%2c&IncludeTimeSeriesIdentifiers=False&LabelType=CodeAndLabel&LanguageCode=it
+stays_other_foreign,Stays of foreign travelers at non-hotel facilities,NUMBER,MONTHLY,01/2015-01/2021,NO,NUTS_3,NO,http://dati.istat.it/Download.ashx?type=csv&Delimiter=%2c&IncludeTimeSeriesIdentifiers=False&LabelType=CodeAndLabel&LanguageCode=it
+stays_hotellike_foreign,Stays of foreign travelers at hotel facilities,NUMBER,MONTHLY,01/2015-01/2021,NO,NUTS_3,NO,http://dati.istat.it/Download.ashx?type=csv&Delimiter=%2c&IncludeTimeSeriesIdentifiers=False&LabelType=CodeAndLabel&LanguageCode=it
 indprodidx_electricity_gas_steam_air_conditioning,"Supply of electricity, gas, steam, and air conditioning",INDEX,MONTHLY,01/2015-04/2023,NO,NUTS_0,NO,http://dati.istat.it/Download.ashx?type=csv&Delimiter=%2c&IncludeTimeSeriesIdentifiers=False&LabelType=CodeAndLabel&LanguageCode=it
 indprodidx_intermediate_goods,Industrial production of intermediate goods,INDEX,MONTHLY,01/2015-04/2023,NO,NUTS_0,NO,http://dati.istat.it/Download.ashx?type=csv&Delimiter=%2c&IncludeTimeSeriesIdentifiers=False&LabelType=CodeAndLabel&LanguageCode=it
 indprodidx_durable_consumer_goods,Industrial production of durable consumer goods,INDEX,MONTHLY,01/2015-04/2023,NO,NUTS_0,NO,http://dati.istat.it/Download.ashx?type=csv&Delimiter=%2c&IncludeTimeSeriesIdentifiers=False&LabelType=CodeAndLabel&LanguageCode=it
@@ -52,61 +52,61 @@ indprodidx_non_durable_consumer_goods,Industrial production of non-durable consu
 indprodidx_capital_goods,Industrial production of capital goods,INDEX,MONTHLY,01/2015-04/2023,NO,NUTS_0,NO,http://dati.istat.it/Download.ashx?type=csv&Delimiter=%2c&IncludeTimeSeriesIdentifiers=False&LabelType=CodeAndLabel&LanguageCode=it
 indprodidx_mining_and_quarrying,Mineral extraction from quarries and mines,INDEX,MONTHLY,01/2015-04/2023,NO,NUTS_0,NO,http://dati.istat.it/Download.ashx?type=csv&Delimiter=%2c&IncludeTimeSeriesIdentifiers=False&LabelType=CodeAndLabel&LanguageCode=it
 indprodidx_manufacturing_activities,Manufacturing activity,INDEX,MONTHLY,01/2015-04/2023,NO,NUTS_0,NO,http://dati.istat.it/Download.ashx?type=csv&Delimiter=%2c&IncludeTimeSeriesIdentifiers=False&LabelType=CodeAndLabel&LanguageCode=it
-newly_signed_businesses,Number of companies registered in the business registry as of December 31 of the year,NUMERO,YEARLY,2015-2022,NO,NUTS_3,"BARLETTA-ANDRIA-TRANI, SUD SARDEGNA",https://www.istat.it/storage/politiche-sviluppo/Demografia_impresa_P.xls
-tot_signed_businesses,Number of companies registered in the business registry as of December 31 of the year,NUMERO,YEARLY,2015-2022,NO,NUTS_3,"BARLETTA-ANDRIA-TRANI, SUD SARDEGNA",https://www.istat.it/storage/politiche-sviluppo/Demografia_impresa_P.xls
-ceased_businesses,Number of companies ceased as of December 31 of the year,NUMERO,YEARLY,2015-2022,NO,NUTS_3,"BARLETTA-ANDRIA-TRANI, SUD SARDEGNA",https://www.istat.it/storage/politiche-sviluppo/Demografia_impresa_P.xls
-population,Average resident population,NUMERO,YEARLY,2015-2021,NO,NUTS_3,NO,https://www.istat.it/storage/politiche-sviluppo/Citta_P.xls
+newly_signed_businesses,Number of companies registered in the business registry as of December 31 of the year,NUMBER,YEARLY,2015-2022,NO,NUTS_3,"BARLETTA-ANDRIA-TRANI, SUD SARDEGNA",https://www.istat.it/storage/politiche-sviluppo/Demografia_impresa_P.xls
+tot_signed_businesses,Number of companies registered in the business registry as of December 31 of the year,NUMBER,YEARLY,2015-2022,NO,NUTS_3,"BARLETTA-ANDRIA-TRANI, SUD SARDEGNA",https://www.istat.it/storage/politiche-sviluppo/Demografia_impresa_P.xls
+ceased_businesses,Number of companies ceased as of December 31 of the year,NUMBER,YEARLY,2015-2022,NO,NUTS_3,"BARLETTA-ANDRIA-TRANI, SUD SARDEGNA",https://www.istat.it/storage/politiche-sviluppo/Demografia_impresa_P.xls
+population,Average resident population,NUMBER,YEARLY,2015-2021,NO,NUTS_3,NO,https://www.istat.it/storage/politiche-sviluppo/Citta_P.xls
 public_transport_speed,Local public transport speed,KM/H,YEARLY,2015-2019,NO,NUTS_3,NO,https://www.istat.it/storage/politiche-sviluppo/Demografia_impresa_P.xls
-public_transport_passengers_per_capita,Number of per capita passengers transported by public transport,NUMERO,YEARLY,2015-2019,NO,NUTS_3,NO,https://www.istat.it/storage/politiche-sviluppo/Demografia_impresa_P.xls
-public_transport_network_density,Extent of public transport network per 100 sq km of area,KM/100 KMQ,YEARLY,2015-2019,NO,NUTS_3,NO,https://www.istat.it/storage/politiche-sviluppo/Demografia_impresa_P.xls
+public_transport_passengers_per_capita,Number of per capita passengers transported by public transport,NUMBER,YEARLY,2015-2019,NO,NUTS_3,NO,https://www.istat.it/storage/politiche-sviluppo/Demografia_impresa_P.xls
+public_transport_network_density,Extent of public transport network per 100 sq km of area,KM/100 SQKM,YEARLY,2015-2019,NO,NUTS_3,NO,https://www.istat.it/storage/politiche-sviluppo/Demografia_impresa_P.xls
 public_transport_seats_km_per_capita,Per capita number of seats offered to users over the year. Obtained as the product of vehicle-km and average vehicle capacity. Thousands per inhabitant.,INDEX,YEARLY,2015-2019,NO,NUTS_3,NO,https://www.istat.it/storage/politiche-sviluppo/Demografia_impresa_P.xls
-vehicles_new_1,New cars produced,NUMERO,YEARLY,2015-2021,NO,NUTS_3,NO,"https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z0810HEA,1.0/HEA_ROAD/IT1,41_288_DF_DCIS_VEICOLIPRA_1,1.0"
-vehicles_new_2,New buses and trolleybuses produced,NUMERO,YEARLY,2015-2021,NO,NUTS_3,NO,"https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z0810HEA,1.0/HEA_ROAD/IT1,41_288_DF_DCIS_VEICOLIPRA_1,1.0"
-vehicles_new_3,New trucks produced,NUMERO,YEARLY,2015-2021,NO,NUTS_3,NO,"https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z0810HEA,1.0/HEA_ROAD/IT1,41_288_DF_DCIS_VEICOLIPRA_1,1.0"
-vehicles_new_4,New locomotives produced,NUMERO,YEARLY,2015-2021,NO,NUTS_3,NO,"https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z0810HEA,1.0/HEA_ROAD/IT1,41_288_DF_DCIS_VEICOLIPRA_1,1.0"
-vehicles_new_5,New trailers produced,NUMERO,YEARLY,2015-2021,NO,NUTS_3,NO,"https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z0810HEA,1.0/HEA_ROAD/IT1,41_288_DF_DCIS_VEICOLIPRA_1,1.0"
-vehicles_new_6,New motorcycles produced,NUMERO,YEARLY,2015-2021,NO,NUTS_3,NO,"https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z0810HEA,1.0/HEA_ROAD/IT1,41_288_DF_DCIS_VEICOLIPRA_1,1.0"
-vehicles_new_7,New motor trucks produced,NUMERO,YEARLY,2015-2021,NO,NUTS_3,NO,"https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z0810HEA,1.0/HEA_ROAD/IT1,41_288_DF_DCIS_VEICOLIPRA_1,1.0"
-vehicles_fleet_1,Cars in circulation,NUMERO,YEARLY,2015-2021,NO,NUTS_3,NO,"https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z0810HEA,1.0/HEA_ROAD/IT1,41_288_DF_DCIS_VEICOLIPRA_1,1.0"
-vehicles_fleet_2,Buses and trolleybuses in circulation,NUMERO,YEARLY,2015-2021,NO,NUTS_3,NO,"https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z0810HEA,1.0/HEA_ROAD/IT1,41_288_DF_DCIS_VEICOLIPRA_1,1.0"
-vehicles_fleet_3,Trucks in circulation,NUMERO,YEARLY,2015-2021,NO,NUTS_3,NO,"https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z0810HEA,1.0/HEA_ROAD/IT1,41_288_DF_DCIS_VEICOLIPRA_1,1.0"
-vehicles_fleet_4,Locomotives in circulation,NUMERO,YEARLY,2015-2021,NO,NUTS_3,NO,"https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z0810HEA,1.0/HEA_ROAD/IT1,41_288_DF_DCIS_VEICOLIPRA_1,1.0"
-vehicles_fleet_5,Trailers in circulation,NUMERO,YEARLY,2015-2021,NO,NUTS_3,NO,"https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z0810HEA,1.0/HEA_ROAD/IT1,41_288_DF_DCIS_VEICOLIPRA_1,1.0"
-vehicles_fleet_6,Motorcycles in circulation,NUMERO,YEARLY,2015-2021,NO,NUTS_3,NO,"https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z0810HEA,1.0/HEA_ROAD/IT1,41_288_DF_DCIS_VEICOLIPRA_1,1.0"
-vehicles_fleet_7,Motor trucks in circulation,NUMERO,YEARLY,2015-2021,NO,NUTS_3,NO,"https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z0810HEA,1.0/HEA_ROAD/IT1,41_288_DF_DCIS_VEICOLIPRA_1,1.0"
-total_gasoline,Total gasoline sales,TONNELLATE,MONTHLY,01/2015-04/2023,NO,NUTS_3,NO,https://dgsaie.mise.gov.it/bollettino-petrolifero
-regular_network_gasoline,Gasoline sales on regular road network,TONNELLATE,MONTHLY,01/2015-04/2023,NO,NUTS_3,NO,https://dgsaie.mise.gov.it/bollettino-petrolifero
-highway_gasoline,Gasoline sales on highway network,TONNELLATE,MONTHLY,01/2015-04/2023,NO,NUTS_3,NO,https://dgsaie.mise.gov.it/bollettino-petrolifero
-extra_network_gasoline,Gasoline sales outside regular and highway networks,TONNELLATE,MONTHLY,01/2015-04/2023,NO,NUTS_3,NO,https://dgsaie.mise.gov.it/bollettino-petrolifero
-total_diesel_for_engines,Total diesel sales,TONNELLATE,MONTHLY,01/2015-04/2023,NO,NUTS_3,NO,https://dgsaie.mise.gov.it/bollettino-petrolifero
-regular_network_diesel_for_engines,Diesel sales on regular road network,TONNELLATE,MONTHLY,01/2015-04/2023,NO,NUTS_3,NO,https://dgsaie.mise.gov.it/bollettino-petrolifero
-highway_diesel_for_engines,Diesel sales on highway network,TONNELLATE,MONTHLY,01/2015-04/2023,NO,NUTS_3,NO,https://dgsaie.mise.gov.it/bollettino-petrolifero
-extra_network_diesel_for_engines,Diesel sales outside regular and highway networks,TONNELLATE,MONTHLY,01/2015-04/2023,NO,NUTS_3,NO,https://dgsaie.mise.gov.it/bollettino-petrolifero
-diesel_for_heating,Diesel sales for heating,TONNELLATE,MONTHLY,01/2015-04/2023,NO,NUTS_3,NO,https://dgsaie.mise.gov.it/bollettino-petrolifero
-diesel_for_thermoelectric_use,Diesel sales for thermoelectric use,TONNELLATE,MONTHLY,01/2015-04/2023,NO,NUTS_3,NO,https://dgsaie.mise.gov.it/bollettino-petrolifero
-diesel_for_agricultural_use,Diesel sales for agricultural use,TONNELLATE,MONTHLY,01/2015-04/2023,NO,NUTS_3,NO,https://dgsaie.mise.gov.it/bollettino-petrolifero
-total_fuel_oil,Total fuel oil sales,TONNELLATE,MONTHLY,01/2015-04/2023,NO,NUTS_3,NO,https://dgsaie.mise.gov.it/bollettino-petrolifero
-heavy_fuel_oil,Heavy fuel oil (BTZ) sales,TONNELLATE,MONTHLY,01/2015-04/2023,NO,NUTS_3,NO,https://dgsaie.mise.gov.it/bollettino-petrolifero
-price_1,Gasoline price,EURO/LITRO,MONTHLY,01/2015-06/2023,NO,NUTS_0,NO,https://dgsaie.mise.gov.it/open_data_export.php?export-id=11&export-type=csv
-price_2,Automotive diesel price,EURO/LITRO,MONTHLY,01/2015-06/2023,NO,NUTS_0,NO,https://dgsaie.mise.gov.it/open_data_export.php?export-id=11&export-type=csv
-price_3,Heating diesel price,EURO/LITRO,MONTHLY,01/2015-06/2023,NO,NUTS_0,NO,https://dgsaie.mise.gov.it/open_data_export.php?export-id=11&export-type=csv
-price_5,LPG price,EURO/LITRO,MONTHLY,01/2015-06/2023,NO,NUTS_0,NO,https://dgsaie.mise.gov.it/open_data_export.php?export-id=11&export-type=csv
-price_6,Fluid BTZ Fuel Oil price,EURO/LITRO,MONTHLY,01/2015-06/2023,NO,NUTS_0,NO,https://dgsaie.mise.gov.it/open_data_export.php?export-id=11&export-type=csv
-price_8,Dense BTZ Fuel Oil price,EURO/LITRO,MONTHLY,01/2015-06/2023,NO,NUTS_0,NO,https://dgsaie.mise.gov.it/open_data_export.php?export-id=11&export-type=csv
-vat_1,Gasoline VAT,EURO/LITRO,MONTHLY,01/2015-06/2023,NO,NUTS_0,NO,https://dgsaie.mise.gov.it/open_data_export.php?export-id=11&export-type=csv
-vat_2,Automotive diesel VAT,EURO/LITRO,MONTHLY,01/2015-06/2023,NO,NUTS_0,NO,https://dgsaie.mise.gov.it/open_data_export.php?export-id=11&export-type=csv
-vat_3,Heating diesel VAT,EURO/LITRO,MONTHLY,01/2015-06/2023,NO,NUTS_0,NO,https://dgsaie.mise.gov.it/open_data_export.php?export-id=11&export-type=csv
-vat_5,LPG VAT,EURO/LITRO,MONTHLY,01/2015-06/2023,NO,NUTS_0,NO,https://dgsaie.mise.gov.it/open_data_export.php?export-id=11&export-type=csv
-vat_6,Fluid BTZ Fuel Oil VAT,EURO/LITRO,MONTHLY,01/2015-06/2023,NO,NUTS_0,NO,https://dgsaie.mise.gov.it/open_data_export.php?export-id=11&export-type=csv
-excise_1,Gasoline excise duty,EURO/LITRO,MONTHLY,01/2015-06/2023,NO,NUTS_0,NO,https://dgsaie.mise.gov.it/open_data_export.php?export-id=11&export-type=csv
-excise_2,Automotive diesel excise duty,EURO/LITRO,MONTHLY,01/2015-06/2023,NO,NUTS_0,NO,https://dgsaie.mise.gov.it/open_data_export.php?export-id=11&export-type=csv
-excise_3,Heating diesel excise duty,EURO/LITRO,MONTHLY,01/2015-06/2023,NO,NUTS_0,NO,https://dgsaie.mise.gov.it/open_data_export.php?export-id=11&export-type=csv
-excise_5,LPG excise duty,EURO/LITRO,MONTHLY,01/2015-06/2023,NO,NUTS_0,NO,https://dgsaie.mise.gov.it/open_data_export.php?export-id=11&export-type=csv
-excise_6,Fluid BTZ Fuel Oil excise duty,EURO/LITRO,MONTHLY,01/2015-06/2023,NO,NUTS_0,NO,https://dgsaie.mise.gov.it/open_data_export.php?export-id=11&export-type=csv
-excise_8,Dense BTZ Fuel Oil excise duty,EURO/LITRO,MONTHLY,01/2015-06/2023,NO,NUTS_0,NO,https://dgsaie.mise.gov.it/open_data_export.php?export-id=11&export-type=csv
-net_1,Net gasoline price,EURO/LITRO,MONTHLY,01/2015-06/2023,NO,NUTS_0,NO,https://dgsaie.mise.gov.it/open_data_export.php?export-id=11&export-type=csv
-net_2,Net automotive diesel price,EURO/LITRO,MONTHLY,01/2015-06/2023,NO,NUTS_0,NO,https://dgsaie.mise.gov.it/open_data_export.php?export-id=11&export-type=csv
-net_3,Net heating diesel price,EURO/LITRO,MONTHLY,01/2015-06/2023,NO,NUTS_0,NO,https://dgsaie.mise.gov.it/open_data_export.php?export-id=11&export-type=csv
-net_5,Net LPG price,EURO/LITRO,MONTHLY,01/2015-06/2023,NO,NUTS_0,NO,https://dgsaie.mise.gov.it/open_data_export.php?export-id=11&export-type=csv
-net_6,Net fluid BTZ Fuel Oil price,EURO/LITRO,MONTHLY,01/2015-06/2023,NO,NUTS_0,NO,https://dgsaie.mise.gov.it/open_data_export.php?export-id=11&export-type=csv
-net_8,Net dense BTZ Fuel Oil price,EURO/LITRO,MONTHLY,01/2015-06/2023,NO,NUTS_0,NO,https://dgsaie.mise.gov.it/open_data_export.php?export-id=11&export-type=csv
+vehicles_new_1,New cars produced,NUMBER,YEARLY,2015-2021,NO,NUTS_3,NO,"https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z0810HEA,1.0/HEA_ROAD/IT1,41_288_DF_DCIS_VEICOLIPRA_1,1.0"
+vehicles_new_2,New buses and trolleybuses produced,NUMBER,YEARLY,2015-2021,NO,NUTS_3,NO,"https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z0810HEA,1.0/HEA_ROAD/IT1,41_288_DF_DCIS_VEICOLIPRA_1,1.0"
+vehicles_new_3,New trucks produced,NUMBER,YEARLY,2015-2021,NO,NUTS_3,NO,"https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z0810HEA,1.0/HEA_ROAD/IT1,41_288_DF_DCIS_VEICOLIPRA_1,1.0"
+vehicles_new_4,New locomotives produced,NUMBER,YEARLY,2015-2021,NO,NUTS_3,NO,"https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z0810HEA,1.0/HEA_ROAD/IT1,41_288_DF_DCIS_VEICOLIPRA_1,1.0"
+vehicles_new_5,New trailers produced,NUMBER,YEARLY,2015-2021,NO,NUTS_3,NO,"https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z0810HEA,1.0/HEA_ROAD/IT1,41_288_DF_DCIS_VEICOLIPRA_1,1.0"
+vehicles_new_6,New motorcycles produced,NUMBER,YEARLY,2015-2021,NO,NUTS_3,NO,"https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z0810HEA,1.0/HEA_ROAD/IT1,41_288_DF_DCIS_VEICOLIPRA_1,1.0"
+vehicles_new_7,New motor trucks produced,NUMBER,YEARLY,2015-2021,NO,NUTS_3,NO,"https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z0810HEA,1.0/HEA_ROAD/IT1,41_288_DF_DCIS_VEICOLIPRA_1,1.0"
+vehicles_fleet_1,Cars in circulation,NUMBER,YEARLY,2015-2021,NO,NUTS_3,NO,"https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z0810HEA,1.0/HEA_ROAD/IT1,41_288_DF_DCIS_VEICOLIPRA_1,1.0"
+vehicles_fleet_2,Buses and trolleybuses in circulation,NUMBER,YEARLY,2015-2021,NO,NUTS_3,NO,"https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z0810HEA,1.0/HEA_ROAD/IT1,41_288_DF_DCIS_VEICOLIPRA_1,1.0"
+vehicles_fleet_3,Trucks in circulation,NUMBER,YEARLY,2015-2021,NO,NUTS_3,NO,"https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z0810HEA,1.0/HEA_ROAD/IT1,41_288_DF_DCIS_VEICOLIPRA_1,1.0"
+vehicles_fleet_4,Locomotives in circulation,NUMBER,YEARLY,2015-2021,NO,NUTS_3,NO,"https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z0810HEA,1.0/HEA_ROAD/IT1,41_288_DF_DCIS_VEICOLIPRA_1,1.0"
+vehicles_fleet_5,Trailers in circulation,NUMBER,YEARLY,2015-2021,NO,NUTS_3,NO,"https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z0810HEA,1.0/HEA_ROAD/IT1,41_288_DF_DCIS_VEICOLIPRA_1,1.0"
+vehicles_fleet_6,Motorcycles in circulation,NUMBER,YEARLY,2015-2021,NO,NUTS_3,NO,"https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z0810HEA,1.0/HEA_ROAD/IT1,41_288_DF_DCIS_VEICOLIPRA_1,1.0"
+vehicles_fleet_7,Motor trucks in circulation,NUMBER,YEARLY,2015-2021,NO,NUTS_3,NO,"https://esploradati.istat.it/databrowser/#/it/dw/categories/IT1,Z0810HEA,1.0/HEA_ROAD/IT1,41_288_DF_DCIS_VEICOLIPRA_1,1.0"
+total_gasoline,Total gasoline sales,TONNAGE,MONTHLY,01/2015-04/2023,NO,NUTS_3,NO,https://dgsaie.mise.gov.it/bollettino-petrolifero
+regular_network_gasoline,Gasoline sales on regular road network,TONNAGE,MONTHLY,01/2015-04/2023,NO,NUTS_3,NO,https://dgsaie.mise.gov.it/bollettino-petrolifero
+highway_gasoline,Gasoline sales on highway network,TONNAGE,MONTHLY,01/2015-04/2023,NO,NUTS_3,NO,https://dgsaie.mise.gov.it/bollettino-petrolifero
+extra_network_gasoline,Gasoline sales outside regular and highway networks,TONNAGE,MONTHLY,01/2015-04/2023,NO,NUTS_3,NO,https://dgsaie.mise.gov.it/bollettino-petrolifero
+total_diesel_for_engines,Total diesel sales,TONNAGE,MONTHLY,01/2015-04/2023,NO,NUTS_3,NO,https://dgsaie.mise.gov.it/bollettino-petrolifero
+regular_network_diesel_for_engines,Diesel sales on regular road network,TONNAGE,MONTHLY,01/2015-04/2023,NO,NUTS_3,NO,https://dgsaie.mise.gov.it/bollettino-petrolifero
+highway_diesel_for_engines,Diesel sales on highway network,TONNAGE,MONTHLY,01/2015-04/2023,NO,NUTS_3,NO,https://dgsaie.mise.gov.it/bollettino-petrolifero
+extra_network_diesel_for_engines,Diesel sales outside regular and highway networks,TONNAGE,MONTHLY,01/2015-04/2023,NO,NUTS_3,NO,https://dgsaie.mise.gov.it/bollettino-petrolifero
+diesel_for_heating,Diesel sales for heating,TONNAGE,MONTHLY,01/2015-04/2023,NO,NUTS_3,NO,https://dgsaie.mise.gov.it/bollettino-petrolifero
+diesel_for_thermoelectric_use,Diesel sales for thermoelectric use,TONNAGE,MONTHLY,01/2015-04/2023,NO,NUTS_3,NO,https://dgsaie.mise.gov.it/bollettino-petrolifero
+diesel_for_agricultural_use,Diesel sales for agricultural use,TONNAGE,MONTHLY,01/2015-04/2023,NO,NUTS_3,NO,https://dgsaie.mise.gov.it/bollettino-petrolifero
+total_fuel_oil,Total fuel oil sales,TONNAGE,MONTHLY,01/2015-04/2023,NO,NUTS_3,NO,https://dgsaie.mise.gov.it/bollettino-petrolifero
+heavy_fuel_oil,Heavy fuel oil (BTZ) sales,TONNAGE,MONTHLY,01/2015-04/2023,NO,NUTS_3,NO,https://dgsaie.mise.gov.it/bollettino-petrolifero
+price_1,Gasoline price,EURO/LITER,MONTHLY,01/2015-06/2023,NO,NUTS_0,NO,https://dgsaie.mise.gov.it/open_data_export.php?export-id=11&export-type=csv
+price_2,Automotive diesel price,EURO/LITER,MONTHLY,01/2015-06/2023,NO,NUTS_0,NO,https://dgsaie.mise.gov.it/open_data_export.php?export-id=11&export-type=csv
+price_3,Heating diesel price,EURO/LITER,MONTHLY,01/2015-06/2023,NO,NUTS_0,NO,https://dgsaie.mise.gov.it/open_data_export.php?export-id=11&export-type=csv
+price_5,LPG price,EURO/LITER,MONTHLY,01/2015-06/2023,NO,NUTS_0,NO,https://dgsaie.mise.gov.it/open_data_export.php?export-id=11&export-type=csv
+price_6,Fluid BTZ Fuel Oil price,EURO/LITER,MONTHLY,01/2015-06/2023,NO,NUTS_0,NO,https://dgsaie.mise.gov.it/open_data_export.php?export-id=11&export-type=csv
+price_8,Dense BTZ Fuel Oil price,EURO/LITER,MONTHLY,01/2015-06/2023,NO,NUTS_0,NO,https://dgsaie.mise.gov.it/open_data_export.php?export-id=11&export-type=csv
+vat_1,Gasoline VAT,EURO/LITER,MONTHLY,01/2015-06/2023,NO,NUTS_0,NO,https://dgsaie.mise.gov.it/open_data_export.php?export-id=11&export-type=csv
+vat_2,Automotive diesel VAT,EURO/LITER,MONTHLY,01/2015-06/2023,NO,NUTS_0,NO,https://dgsaie.mise.gov.it/open_data_export.php?export-id=11&export-type=csv
+vat_3,Heating diesel VAT,EURO/LITER,MONTHLY,01/2015-06/2023,NO,NUTS_0,NO,https://dgsaie.mise.gov.it/open_data_export.php?export-id=11&export-type=csv
+vat_5,LPG VAT,EURO/LITER,MONTHLY,01/2015-06/2023,NO,NUTS_0,NO,https://dgsaie.mise.gov.it/open_data_export.php?export-id=11&export-type=csv
+vat_6,Fluid BTZ Fuel Oil VAT,EURO/LITER,MONTHLY,01/2015-06/2023,NO,NUTS_0,NO,https://dgsaie.mise.gov.it/open_data_export.php?export-id=11&export-type=csv
+excise_1,Gasoline excise duty,EURO/LITER,MONTHLY,01/2015-06/2023,NO,NUTS_0,NO,https://dgsaie.mise.gov.it/open_data_export.php?export-id=11&export-type=csv
+excise_2,Automotive diesel excise duty,EURO/LITER,MONTHLY,01/2015-06/2023,NO,NUTS_0,NO,https://dgsaie.mise.gov.it/open_data_export.php?export-id=11&export-type=csv
+excise_3,Heating diesel excise duty,EURO/LITER,MONTHLY,01/2015-06/2023,NO,NUTS_0,NO,https://dgsaie.mise.gov.it/open_data_export.php?export-id=11&export-type=csv
+excise_5,LPG excise duty,EURO/LITER,MONTHLY,01/2015-06/2023,NO,NUTS_0,NO,https://dgsaie.mise.gov.it/open_data_export.php?export-id=11&export-type=csv
+excise_6,Fluid BTZ Fuel Oil excise duty,EURO/LITER,MONTHLY,01/2015-06/2023,NO,NUTS_0,NO,https://dgsaie.mise.gov.it/open_data_export.php?export-id=11&export-type=csv
+excise_8,Dense BTZ Fuel Oil excise duty,EURO/LITER,MONTHLY,01/2015-06/2023,NO,NUTS_0,NO,https://dgsaie.mise.gov.it/open_data_export.php?export-id=11&export-type=csv
+net_1,Net gasoline price,EURO/LITER,MONTHLY,01/2015-06/2023,NO,NUTS_0,NO,https://dgsaie.mise.gov.it/open_data_export.php?export-id=11&export-type=csv
+net_2,Net automotive diesel price,EURO/LITER,MONTHLY,01/2015-06/2023,NO,NUTS_0,NO,https://dgsaie.mise.gov.it/open_data_export.php?export-id=11&export-type=csv
+net_3,Net heating diesel price,EURO/LITER,MONTHLY,01/2015-06/2023,NO,NUTS_0,NO,https://dgsaie.mise.gov.it/open_data_export.php?export-id=11&export-type=csv
+net_5,Net LPG price,EURO/LITER,MONTHLY,01/2015-06/2023,NO,NUTS_0,NO,https://dgsaie.mise.gov.it/open_data_export.php?export-id=11&export-type=csv
+net_6,Net fluid BTZ Fuel Oil price,EURO/LITER,MONTHLY,01/2015-06/2023,NO,NUTS_0,NO,https://dgsaie.mise.gov.it/open_data_export.php?export-id=11&export-type=csv
+net_8,Net dense BTZ Fuel Oil price,EURO/LITER,MONTHLY,01/2015-06/2023,NO,NUTS_0,NO,https://dgsaie.mise.gov.it/open_data_export.php?export-id=11&export-type=csv
