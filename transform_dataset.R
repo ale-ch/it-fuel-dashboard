@@ -2,17 +2,6 @@ library(tidyverse)
 
 dataset <- read_csv("https://raw.githubusercontent.com/ale-ch/it-fuel-dashboard/main/dataset.csv") 
 
-dataset <- dataset %>% 
-  rename(
-    urbanization_level = urban_rural_label,
-    metropolitan_area = metro,
-    coastal_area = coastal_label,
-    mountain_area = mountain_region_label,
-    border_area = border_region_label,
-    remoteness_level = remote_region_label,
-    island_area = island_region
-  )
-
 dataset_long <- dataset %>% 
   mutate(
     nuts_level_1 = paste(nuts_level_1, "(NUTS 1)"),
