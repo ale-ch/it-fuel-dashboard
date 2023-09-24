@@ -30,9 +30,15 @@ nuts_names <- names(dataset_nuts)[!(names(dataset_nuts) %in%
 
 ui <- fluidPage(
   theme = bslib::bs_theme(bootswatch = "yeti"),
-  
+
   navbarPage(
-    "Italy Fuel Usage",
+    "Italy Fuel Sales",
+    
+    tabPanel(
+      "Read Me",
+      includeMarkdown("README.md")
+    ),
+    
     tabPanel("Map", 
              sidebarLayout(
                sidebarPanel(
@@ -42,6 +48,9 @@ ui <- fluidPage(
                              selected = "highway_diesel_for_engines"),
                 
                  h6(textOutput("name_description")),
+                 br(),
+                 
+                 h6(textOutput("name_unit_of_measurement")),
                  br(),
                  
                  airDatepickerInput("date",
@@ -63,6 +72,16 @@ ui <- fluidPage(
                
                mainPanel(
                  width = 9,
+                 
+                 h4("Interactive Map"),
+                 br(),
+                 h6("Visualize each variable
+                    in the dataset at every location on a specified date. 
+                    The representation depends on spatial and temporal coverage of
+                    the selected variable. For more information, consult the metadata, 
+                    under the 'Data Explorer' tab."
+                    ),
+                 
                  mapviewOutput("map")
                )
              )
@@ -70,11 +89,17 @@ ui <- fluidPage(
     
     tabPanel("Analysis",
              br(),
-             
+ 
              sidebarLayout(
                sidebarPanel(
                  width = 3,
+                 
                  h5("Line plot"), 
+                 "Visualize time series for each location 
+                 (only time-varying variables).",
+                 br(),
+                 br(),
+                 
                  airDatepickerInput("daterange",
                                     label = "Date range:",
                                     value = c(min_date, max_date),
@@ -92,18 +117,29 @@ ui <- fluidPage(
                              choices = line_plot_names,
                              selected = "highway_diesel_for_engines"),
                  
-                 h5("Bar plot"), 
+                 h5("Bar plot"),
+                 "Visualize geographical patterns for each NUTS 2 region.",
+                 br(),
+                 br(),
+                 
                  selectInput("bar_plot_variable", "Select variable to visualize:", 
                              choices = nuts_names),
                  
-                 h5("Scatterplot, Correlation Matrix, Density plots"),
-                 airDatepickerInput("date2",
+                 h5("Scatterplot, Correlation Matrix, Distribution plots"),
+                 "Compare variables with each other with the interactive scatterplot and
+                 distribution plots. Visualize data patterns with the correlation matrix
+                 using different correlation methods.",
+                 br(),
+                 br(),
+                 
+                 airDatepickerInput("daterange2",
                                     label = "Select date:",
-                                    value = "2021-01-01",
+                                    value = c("2021-01-01", "2021-01-01"),
                                     maxDate = max_date,
                                     minDate = min_date,
                                     view = "months", 
                                     minView = "months",
+                                    range = TRUE,
                                     dateFormat = "yyyy-MM"),
                  
                  selectInput("scatterplot_name1", 
@@ -124,23 +160,37 @@ ui <- fluidPage(
                  selectInput("cor_method", 
                              "Correlation method:", 
                              choices = cor_methods,
-                             selected = "pearson")
+                             selected = "pearson"),
+                 
+                 tags$li(tags$a(href="https://en.wikipedia.org/wiki/Pearson_correlation_coefficient", 
+                                paste("Pearson correlation coefficient"))),
+                 tags$li(tags$a(href="https://en.wikipedia.org/wiki/Kendall_rank_correlation_coefficient", 
+                                paste("Kendall rank correlation coefficient"))),
+                 tags$li(tags$a(href="https://en.wikipedia.org/wiki/Spearman%27s_rank_correlation_coefficient", 
+                                paste("Spearman's rank correlation coefficient")))
+  
                ),
                
                mainPanel(
                  width = 9,
+                 
+                 h4("Line plot"),
+                 br(),
                  plotlyOutput("line_plot"),
                  br(),
                  
+                 h4("Bar plot"),
+                 br(),
                  plotlyOutput("bar_plot"),
                  br(),
                  
+                 h4("Scatterplot"),
+                 br(),
                  plotlyOutput("scatterplot"),
                  br(),
                  
-                 plotlyOutput("corr_matrix"),
+                 h4("Distribution plots"),
                  br(),
-                 
                  fluidRow(
                    column(6, plotlyOutput("density1")),
                    column(6, plotlyOutput("density2"))
@@ -150,7 +200,13 @@ ui <- fluidPage(
                  fluidRow(
                    column(6, plotlyOutput("surface_plot")),
                    column(6, plotlyOutput("contour_plot"))
-                 )
+                 ),
+                 br(),
+                 
+                 h4("Correlation matrix"),
+                 br(),
+                 plotlyOutput("corr_matrix"),
+                 br(),
                )
              )
     ),
@@ -170,11 +226,6 @@ ui <- fluidPage(
                br(),
                downloadButton("metadata_download", "Download .tsv"),
       )
-    ),
-    
-    tabPanel(
-      "Read Me",
-      includeMarkdown("README.md")
     )
   )
 )
@@ -208,29 +259,46 @@ server <- function(input, output, session) {
   
   output$name_description <- renderText({
     variable_description <- metadata_reactive() %>% 
-      filter(variable == input$map_variable) %>% 
-      select(description) %>% 
+      filter(Variable == input$map_variable) %>% 
+      select(Description) %>% 
       as.character()
     
     variable_description
   })
   
+  
+  output$name_unit_of_measurement <- renderText({
+    variable_unit_of_measurement <- metadata_reactive() %>% 
+      filter(Variable == input$map_variable) %>% 
+      select(`Unit Of Measurement`) %>% 
+      as.character()
+    
+    variable_unit_of_measurement
+  })
+  
   output$map <- renderLeaflet({
     variable_description <- metadata_reactive() %>% 
-      filter(variable == input$map_variable) %>% 
-      select(description) %>% 
+      filter(Variable == input$map_variable) %>% 
+      select(Description) %>% 
+      as.character()
+    
+    variable_unit_of_measurement <- metadata_reactive() %>% 
+      filter(Variable == input$map_variable) %>% 
+      select(`Unit Of Measurement`) %>% 
       as.character()
     
     m <- map_dataset_reactive() %>% 
       mutate(
-        description = variable_description
+        description = variable_description,
+        unit_of_measurement = variable_unit_of_measurement
       ) %>% 
       select(
         NUTS_ID,
         all_of(c("nuts_level_3", "nuts_level_2", "nuts_level_1")),
         date,
         all_of(input$map_variable),
-        description
+        description,
+        unit_of_measurement
       ) %>% 
       st_as_sf() %>% 
       mapview(zcol = input$map_variable)
@@ -288,7 +356,10 @@ server <- function(input, output, session) {
     name2 <- input$scatterplot_name2
     
     dataset %>% 
-      filter(date == input$date2) %>% 
+      filter(
+        date >= input$daterange2[1],
+        date <= input$daterange2[2]
+        ) %>% 
       select(name1 = all_of(name1), 
              name2 = all_of(name2), 
              nuts_level_1
@@ -302,7 +373,10 @@ server <- function(input, output, session) {
   
   output$corr_matrix <- renderPlotly({
     df <- dataset %>% 
-      filter(date == input$date2) %>% 
+      filter(
+        date >= input$daterange2[1],
+        date <= input$daterange2[2]
+        ) %>% 
       select(all_of(line_plot_names)) %>%
       select(where(~ !any(is.na(.)))) %>% 
       select(where(~ sd(.) != 0))
@@ -324,7 +398,10 @@ server <- function(input, output, session) {
     name1 <- input$scatterplot_name1
     
     df <- dataset %>% 
-      filter(date == input$date2) %>% 
+      filter(
+        date >= input$daterange2[1],
+        date <= input$daterange2[2]
+        ) %>% 
       select(name1 = all_of(name1))
     
     x <- df$name1
@@ -344,7 +421,10 @@ server <- function(input, output, session) {
     name2 <- input$scatterplot_name2
     
     df <- dataset %>% 
-      filter(date == input$date2) %>% 
+      filter(
+        date >= input$daterange2[1],
+        date <= input$daterange2[2]
+      ) %>% 
       select(name2 = all_of(name2))
     
     x <- df$name2
@@ -361,7 +441,10 @@ server <- function(input, output, session) {
   
   output$contour_plot <- renderPlotly({
     df <- dataset %>% 
-      filter(date == input$date2) %>% 
+      filter(
+        date >= input$daterange2[1],
+        date <= input$daterange2[2]
+        ) %>% 
       select(V1 = all_of(input$scatterplot_name1), 
              V2 = all_of(input$scatterplot_name2)) %>% 
       na.omit()
@@ -374,7 +457,10 @@ server <- function(input, output, session) {
   
   output$surface_plot <- renderPlotly({
     df <- dataset %>% 
-      filter(date == input$date2) %>% 
+      filter(
+        date >= input$daterange2[1],
+        date <= input$daterange2[2]
+      ) %>% 
       select(V1 = all_of(input$scatterplot_name1), 
              V2 = all_of(input$scatterplot_name2)) %>% 
       na.omit()
