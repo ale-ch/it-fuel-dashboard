@@ -31,6 +31,9 @@ A 2017 [regional reform in Sardinia](https://web.archive.org/web/20160509123345/
 ## Updates
 Fuel consumption data will be updated periodically, whereas the other variables will be discontinued.
 
+## Link
+The app can be found [here](https://ale-ch.shinyapps.io/it-fuel-dashboard/)
+
 ## Contacts
 [alessiochiodin@hotmail.com](mailto:alessiochiodin@hotmail.com)\
 [paolo.maranzano@unimib.it](mailto:paolo.maranzano@unimib.it)
